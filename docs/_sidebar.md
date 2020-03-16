@@ -1,15 +1,3 @@
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Sidebar Ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-5888225880131847"
-     data-ad-slot="4752632688"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 * Getting Started
 * 
   * [Introduce](/README.md)
@@ -39,4 +27,4 @@
 
 * Resource
   
-  * [Icon](/_icon/index.html ':ignore')
+  * [Icon](_icon/index.html ':ignore')
