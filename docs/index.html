@@ -4,29 +4,33 @@
   <meta charset="UTF-8">
   <title>Document</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
+  <meta name="description" content="Use Book of Meadow Theme for Hexo">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <style>
+    nav.app-nav li ul {
+      min-width: 100px;
+    }
+  </style>
 </head>
 <body>
-  <nav>
-    <a href="#/">
-      <img class="emoji" src="https://github.githubassets.com/images/icons/emoji/uk.png" alt="uk">EN
-    </a>
-    <a href="#/README_ZH">
-      <img class="emoji" src="https://github.githubassets.com/images/icons/emoji/cn.png" alt="cn">中文
-    </a>
-  </nav>
   <div id="app"></div>
   <script>
     window.$docsify = {
       name: 'Meadow',
       repo: 'kb1000fx/hexo-theme-meadow',
       search: 'auto',
+      auto2top: true,
+      loadSidebar: true,
+      loadNavbar: true,
+      subMaxLevel: 2,
+      autoHeader: true,
+      executeScript: true,
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//unpkg.com/docsify-copy-code"></script>
   <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 </body>
 </html>
