@@ -8,6 +8,4 @@ Modify sitemap configures in `_config.yml` file in the `Site` folder.
 ```
 sitemap:
   path: sitemap.xml
-  template: ./sitemap_template.xml
-  rel: false
 ```
