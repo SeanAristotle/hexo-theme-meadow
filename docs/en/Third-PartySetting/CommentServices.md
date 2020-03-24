@@ -2,7 +2,7 @@ You can add comment services for your website.
 
 Edit `comment` part of `_config.yml` file in the `Theme` folder.
 
-Set different values of `use` to select the comment service.
+Set different values of `use` to select the comment service. You can set several comment services at the same time.
 
 ```YAML
 comment:
