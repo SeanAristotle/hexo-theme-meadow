@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/16107/</url>
+    <content><![CDATA[<h1 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World"></a>Hello World</h1><h2 id="Hello-World-1"><a href="#Hello-World-1" class="headerlink" title="Hello World"></a>Hello World</h2><h3 id="Hello-World-2"><a href="#Hello-World-2" class="headerlink" title="Hello World"></a>Hello World</h3><p>Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World</p>
+<p><em>Hello World Hello World Hello World Hello World Hello World Hello World Hello World</em></p>
+<p><strong>Hello World Hello World Hello World Hello World Hello World Hello World Hello World</strong></p>
+<p><strong><em>Hello World Hello World Hello World Hello World Hello World Hello World Hello World</em></strong></p>
+<p>Hello World Hello World <code>Hello World Hello World Hello</code> World Hello World Hello World</p>
+<p><del>Hello World Hello World Hello World Hello World Hello World Hello World Hello World</del></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"HelloWorld"</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>文字排版</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>数学公式及Mermaid图</title>
+    <url>/52285/</url>
+    <content><![CDATA[<p>根据主题设置中开启的引擎，在文章头部加入<code>mathjx: true</code>或<code>katex: true</code>在需要插入公式的地方使用<code>$$</code>符号包裹单行公式或使用<code>$</code>符号包裹行内公式。如果需要防止单行公式在小屏幕下显示错行，可以使用<code>div</code>标签包裹公式内容，并在<code>div</code>标签上添加类<code>.math-fluid</code>使公式具有横向滚动条。</p>
+<a id="more"></a>
+
+<h2 id="数学公式"><a href="#数学公式" class="headerlink" title="数学公式"></a>数学公式</h2><p>$$ a = x^2-y^3 \tag{eq1} \label{eq1} $$</p>
+<p>$$<br>\begin{align}<br>  x+1 &amp;= y+2 \\<br>  &amp;= z+3 \\<br>  &amp;= w+4<br>\end{align}<br>$$</p>
+<p>$$<br>\begin{matrix}<br>  1 &amp; 0 &amp; 0 \\<br>  0 &amp; 1 &amp; 0 \\<br>  0 &amp; 0 &amp; 1 \\<br>\end{matrix}<br>$$</p>
+<p>$$<br>  \begin{cases}<br>    x=\dfrac{3\pi}{2}(1+2t)\cos(\dfrac{3\pi}{2}(1+2t)),<br>    \\<br>    y=s, &amp; 0\leq s\leq L,|t|\leq1.<br>    \\<br>    z=\dfrac{3\pi}{2}(1+2t)\sin(\dfrac{3\pi}{2}(1+2t)), &amp;<br>  \end{cases}<br>$$</p>
+<div class="math-fluid">
+  $$
+  \begin{split}
+    \ln P(r,n) &= \ln P(\frac{n}{P_m} ,n) + \frac{r-\frac{n}{P_m}}{1!} \cdot \frac{\partial \ln P(r,n)}{\partial r} + \frac{(r-\frac{n}{P_m})^2}{2!} \cdot \frac{\partial^2 \ln P(r,n)}{\partial r^2} + o \left[\left(r-\frac{n}{P_m}\right)^3 \right] \\\\
+    &= \ln P(\frac{n}{P_m},n) + 0 - \frac{(r-\frac{n}{P_m})^2}{2!} \cdot \frac{P_m^2}{n(1-P_m)} + o \left[\left(r-\frac{n}{P_m}\right)^3 \right] \\\\
+  \end{split}
+  $$
+</div>
+
+<h2 id="化学式"><a href="#化学式" class="headerlink" title="化学式"></a>化学式</h2><div class="math-fluid">
+$$\ce{ClO^- + H2O <=> HClO + OH^-} \tag{I}$$
+$$\ce{2ClO^- \xlongequal{h\nu\text{ or heat}} O2 ^ + 2Cl^-} \tag{II}$$
+$$\ce{HClO + H^+ + Cl^- <=> Cl2(aq) + H2O} \tag{III}$$
+</div>
+
+<h2 id="Mermaid图"><a href="#Mermaid图" class="headerlink" title="Mermaid图"></a>Mermaid图</h2><div class="mermaid">
+  graph TD
+  A[Hard] -->|Text| B(Round)
+  B --> C{Decision}
+  C -->|One| D[Result 1]
+  C -->|Two| E[Result 2]
+</div>
+
+<div class="mermaid">
+  sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail...
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
+</div>
+
+<div class="mermaid">
+  classDiagram
+  Class01 <|-- AveryLongClass : Cool
+  &lt;&lt;interface>> Class01
+  Class09 --> C2 : Where am i?
+  Class09 --* C3
+  Class09 --|> Class07
+  Class07 : equals()
+  Class07 : Object[] elementData
+  Class01 : size()
+  Class01 : int chimp
+  Class01 : int gorilla
+  class Class10 {
+    &lt;&lt;service>>
+    int id
+    size()
+  }
+</div>]]></content>
+      <categories>
+        <category>公式排版</category>
+      </categories>
+      <tags>
+        <tag>Meadow</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>视频及图片</title>
+    <url>/46638/</url>
+    <content><![CDATA[<p>在文章中使用<code>&lt;!--more--&gt;</code>可以手动设置摘要长度。</p>
+<a id="more"></a>
+
+<h1 id="响应式图片"><a href="#响应式图片" class="headerlink" title="响应式图片"></a>响应式图片</h1><p>代码：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">class</span>=<span class="string">"mdui-img-fluid"</span> <span class="attr">src</span>=<span class="string">"/images/photo.png"</span>/&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>效果：<br><img class="mdui-img-fluid" src="/images/photo.png"/></p>
+<h1 id="响应式视频"><a href="#响应式视频" class="headerlink" title="响应式视频"></a>响应式视频</h1><p>代码：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"mdui-video-container"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">iframe</span> <span class="attr">height</span>=<span class="string">498</span> <span class="attr">width</span>=<span class="string">510</span> <span class="attr">src</span>=<span class="string">"//player.youku.com/embed/XNzUwOTk5MzE2"</span> <span class="attr">frameborder</span>=<span class="string">0</span> <span class="attr">allowfullscreen</span>&gt;</span><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<div class="mdui-video-container">
+  <iframe height=498 width=510 src="//player.youku.com/embed/XNzUwOTk5MzE2" frameborder=0 allowfullscreen></iframe>
+</div>
+
+<h1 id="响应式-HTML5-视频"><a href="#响应式-HTML5-视频" class="headerlink" title="响应式 HTML5 视频"></a>响应式 HTML5 视频</h1><p>代码：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">video</span> <span class="attr">class</span>=<span class="string">"mdui-video-fluid"</span> <span class="attr">controls</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span>=<span class="string">"//www.mdui.org/docs/assets/docs/video/demo_mp4.mp4"</span> <span class="attr">type</span>=<span class="string">"video/mp4"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">video</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>效果：<br><video class="mdui-video-fluid" controls><br>  <source src="//www.mdui.org/docs/assets/docs/video/demo_mp4.mp4" type="video/mp4"><br></video></p>
+]]></content>
+      <categories>
+        <category>视频图片</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Meadow主题说明</title>
+    <url>/37870/</url>
+    <content><![CDATA[<p><img src="https://img.shields.io/badge/Hexo-3.0+-blue" alt="Hexo"><br><img src="https://img.shields.io/badge/node.js-6.0-brightgreen" alt="Node.JS"></p>
+<p>Meadow是一款基于MDUI开发的，遵循Material Design的响应式Hexo主题。更多内容详见<a href="https://garybear.cn/" target="_blank" rel="noopener">我的博客</a>。</p>
+<p>下列是一些简单的说明文档与Demo：</p>
+<ul>
+<li><p><a href="https://kb1000fx.github.io/" target="_blank" rel="noopener">My Blog</a></p>
+</li>
+<li><p><a href="https://kb1000fx.github.io/hexo-theme-meadow/" target="_blank" rel="noopener">Demo</a></p>
+</li>
+<li><p><a href="https://kb1000fx.github.io/hexo-theme-meadow/doc/en" target="_blank" rel="noopener">Doc</a></p>
+</li>
+<li><p><a href="https://kb1000fx.github.io/hexo-theme-meadow/doc/" target="_blank" rel="noopener">中文文档</a></p>
+</li>
+</ul>
+<p>如有任何问题请发Github Issue，或通过邮箱<a href="mailto:kb1000fx@gmail.com">kb1000fx@gmail.com</a>与我联系。</p>
+<p>我的另一个主题(还在施工中): <a href="https://github.com/kb1000fx/hexo-theme-insulin" target="_blank" rel="noopener">Insulin</a></p>
+]]></content>
+      <categories>
+        <category>文字排版</category>
+      </categories>
+  </entry>
+</search>
