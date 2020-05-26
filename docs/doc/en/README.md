@@ -11,9 +11,9 @@ Some useful links:
 
 + [Demo](https://kb1000fx.github.io/hexo-theme-meadow/)
 
-+ [Doc](https://kb1000fx.github.io/hexo-theme-meadow/doc/en/)
++ [Doc](https://kb1000fx.github.io/hexo-theme-meadow/doc/#/en/)
   
-+ [中文文档](https://kb1000fx.github.io/hexo-theme-meadow/doc/)
++ [中文文档](https://kb1000fx.github.io/hexo-theme-meadow/doc/#/)
 
 If you have any question, please post a Github Issue or contact me with kb1000fx@gmail.com.
 

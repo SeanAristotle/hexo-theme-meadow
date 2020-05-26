@@ -1,23 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/16107/</url>
-    <content><![CDATA[<h1 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World"></a>Hello World</h1><h2 id="Hello-World-1"><a href="#Hello-World-1" class="headerlink" title="Hello World"></a>Hello World</h2><h3 id="Hello-World-2"><a href="#Hello-World-2" class="headerlink" title="Hello World"></a>Hello World</h3><p>Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World</p>
-<p><em>Hello World Hello World Hello World Hello World Hello World Hello World Hello World</em></p>
-<p><strong>Hello World Hello World Hello World Hello World Hello World Hello World Hello World</strong></p>
-<p><strong><em>Hello World Hello World Hello World Hello World Hello World Hello World Hello World</em></strong></p>
-<p>Hello World Hello World <code>Hello World Hello World Hello</code> World Hello World Hello World</p>
-<p><del>Hello World Hello World Hello World Hello World Hello World Hello World Hello World</del></p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"HelloWorld"</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>文字排版</category>
-      </categories>
-  </entry>
-  <entry>
     <title>数学公式及Mermaid图</title>
-    <url>/52285/</url>
+    <url>/hexo-theme-meadow/52285/</url>
     <content><![CDATA[<p>根据主题设置中开启的引擎，在文章头部加入<code>mathjx: true</code>或<code>katex: true</code>在需要插入公式的地方使用<code>$$</code>符号包裹单行公式或使用<code>$</code>符号包裹行内公式。如果需要防止单行公式在小屏幕下显示错行，可以使用<code>div</code>标签包裹公式内容，并在<code>div</code>标签上添加类<code>.math-fluid</code>使公式具有横向滚动条。</p>
 <a id="more"></a>
 
@@ -89,7 +74,7 @@ $$\ce{HClO + H^+ + Cl^- <=> Cl2(aq) + H2O} \tag{III}$$
   </entry>
   <entry>
     <title>视频及图片</title>
-    <url>/46638/</url>
+    <url>/hexo-theme-meadow/46638/</url>
     <content><![CDATA[<p>在文章中使用<code>&lt;!--more--&gt;</code>可以手动设置摘要长度。</p>
 <a id="more"></a>
 
@@ -118,8 +103,23 @@ $$\ce{HClO + H^+ + Cl^- <=> Cl2(aq) + H2O} \tag{III}$$
       </tags>
   </entry>
   <entry>
+    <title>Hello World</title>
+    <url>/hexo-theme-meadow/16107/</url>
+    <content><![CDATA[<h1 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World"></a>Hello World</h1><h2 id="Hello-World-1"><a href="#Hello-World-1" class="headerlink" title="Hello World"></a>Hello World</h2><h3 id="Hello-World-2"><a href="#Hello-World-2" class="headerlink" title="Hello World"></a>Hello World</h3><p>Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World</p>
+<p><em>Hello World Hello World Hello World Hello World Hello World Hello World Hello World</em></p>
+<p><strong>Hello World Hello World Hello World Hello World Hello World Hello World Hello World</strong></p>
+<p><strong><em>Hello World Hello World Hello World Hello World Hello World Hello World Hello World</em></strong></p>
+<p>Hello World Hello World <code>Hello World Hello World Hello</code> World Hello World Hello World</p>
+<p><del>Hello World Hello World Hello World Hello World Hello World Hello World Hello World</del></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"HelloWorld"</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>文字排版</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Meadow主题说明</title>
-    <url>/37870/</url>
+    <url>/hexo-theme-meadow/37870/</url>
     <content><![CDATA[<p><img src="https://img.shields.io/badge/Hexo-3.0+-blue" alt="Hexo"><br><img src="https://img.shields.io/badge/node.js-6.0-brightgreen" alt="Node.JS"></p>
 <p>Meadow是一款基于MDUI开发的，遵循Material Design的响应式Hexo主题。更多内容详见<a href="https://garybear.cn/" target="_blank" rel="noopener">我的博客</a>。</p>
 <p>下列是一些简单的说明文档与Demo：</p>
@@ -128,9 +128,9 @@ $$\ce{HClO + H^+ + Cl^- <=> Cl2(aq) + H2O} \tag{III}$$
 </li>
 <li><p><a href="https://kb1000fx.github.io/hexo-theme-meadow/" target="_blank" rel="noopener">Demo</a></p>
 </li>
-<li><p><a href="https://kb1000fx.github.io/hexo-theme-meadow/doc/en" target="_blank" rel="noopener">Doc</a></p>
+<li><p><a href="https://kb1000fx.github.io/hexo-theme-meadow/doc/#/en/" target="_blank" rel="noopener">Doc</a></p>
 </li>
-<li><p><a href="https://kb1000fx.github.io/hexo-theme-meadow/doc/" target="_blank" rel="noopener">中文文档</a></p>
+<li><p><a href="https://kb1000fx.github.io/hexo-theme-meadow/doc/#/" target="_blank" rel="noopener">中文文档</a></p>
 </li>
 </ul>
 <p>如有任何问题请发Github Issue，或通过邮箱<a href="mailto:kb1000fx@gmail.com">kb1000fx@gmail.com</a>与我联系。</p>
