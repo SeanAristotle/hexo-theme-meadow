@@ -29,7 +29,8 @@
   * [Abbrlink](/zh-CN/插件/Abbrlink)
   * [站点地图](/zh-CN/插件/站点地图)
   * [本地搜索](/zh-CN/插件/本地搜索)
+  * [博客加密](/zh-CN/插件/博客加密)
 
 * 资源
   
-  * [图标](/doc/icon/index.html ':ignore')
+  * [图标](/hexo-theme-meadow/doc/icon/index.html ':ignore')

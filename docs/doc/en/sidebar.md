@@ -30,7 +30,8 @@
   * [Abbrlink](en/Plugin/Abbrlink)
   * [Sitemap](en/Plugin/Sitemap)
   * [LocalSearch](en/Plugin/LocalSearch)
+  * [BlogEncrypt](/zh-CN/插件/博客加密)
 
 * Resource
   
-  * [Icon](/doc/icon/index.html ':ignore')
+  * [Icon](/hexo-theme-meadow/doc/icon/index.html ':ignore')
